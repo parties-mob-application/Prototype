@@ -17,6 +17,26 @@ class Home extends StatelessWidget {
                 height: 100.0,
                 width: double.infinity,
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                child: Row(
+                  children: <Widget>[
+                    Icon(
+                      Icons.crop_square,
+                      size: 50.0,
+                      color: Colors.red[400],
+                    ),
+                    SizedBox(
+                      width: 10.0,
+                    ),
+                    Text(
+                      'Parties',
+                      style: TextStyle(
+                        fontFamily: 'Pacifico',
+                        color: Colors.red[400],
+                        fontSize: 50.0
+                      ),
+                    )
+                  ],
+                ),
               ),
               SizedBox(
                 height: 10.0,
